@@ -1,0 +1,11 @@
+= form_for @message do |fn|
+  .field
+    = fn.label :title, class: "label"
+    .control
+      = fn.text_field :title, class: "input"
+  .field
+    = fn.label :description, class: "label"
+    .control
+      = fn.text_area :description, class: "input"
+  .field
+    = fn.button :submit

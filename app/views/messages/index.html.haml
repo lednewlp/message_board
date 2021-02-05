@@ -1,0 +1,6 @@
+- @messages.each do |message|
+  %h2.title= message.title
+  = link_to "View Message", message_path(message), class: 'button is-info'
+%br
+%br
+= link_to "New Message", new_message_path

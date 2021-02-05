@@ -13,3 +13,9 @@
  *= require_tree .
  *= require_self
  */
+ @import 'bulma/bulma';
+
+
+ .navbar-brand .title {
+ 	color: white;
+ }
